@@ -37,7 +37,7 @@
             // 
             // billInput
             // 
-            billInput.Location = new Point(298, 62);
+            billInput.Location = new Point(12, 91);
             billInput.Name = "billInput";
             billInput.Size = new Size(150, 31);
             billInput.TabIndex = 0;
@@ -45,7 +45,7 @@
             // billtitle
             // 
             billtitle.AutoSize = true;
-            billtitle.Location = new Point(298, 34);
+            billtitle.Location = new Point(12, 63);
             billtitle.Name = "billtitle";
             billtitle.Size = new Size(104, 25);
             billtitle.TabIndex = 1;
@@ -55,7 +55,7 @@
             // tipTitle
             // 
             tipTitle.AutoSize = true;
-            tipTitle.Location = new Point(296, 128);
+            tipTitle.Location = new Point(8, 137);
             tipTitle.Name = "tipTitle";
             tipTitle.Size = new Size(106, 25);
             tipTitle.TabIndex = 2;
@@ -63,16 +63,16 @@
             // 
             // TipInput
             // 
-            TipInput.Location = new Point(298, 156);
+            TipInput.Location = new Point(10, 165);
             TipInput.Name = "TipInput";
             TipInput.Size = new Size(150, 31);
             TipInput.TabIndex = 3;
             // 
             // CalcButton
             // 
-            CalcButton.Location = new Point(230, 228);
+            CalcButton.Location = new Point(10, 222);
             CalcButton.Name = "CalcButton";
-            CalcButton.Size = new Size(280, 83);
+            CalcButton.Size = new Size(152, 54);
             CalcButton.TabIndex = 4;
             CalcButton.Text = "Calculate Bill";
             CalcButton.UseVisualStyleBackColor = true;

@@ -1,0 +1,17 @@
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\bin\Debug\net8.0-windows\TipCalculator.exe
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\bin\Debug\net8.0-windows\TipCalculator.deps.json
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\bin\Debug\net8.0-windows\TipCalculator.runtimeconfig.json
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\bin\Debug\net8.0-windows\TipCalculator.dll
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\bin\Debug\net8.0-windows\TipCalculator.pdb
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.TipCalculator.resources
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.csproj.GenerateResource.cache
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.AssemblyInfoInputs.cache
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.AssemblyInfo.cs
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.csproj.CoreCompileInputs.cache
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.sourcelink.json
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.dll
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\refint\TipCalculator.dll
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.pdb
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\TipCalculator.genruntimeconfig.cache
+D:\Projects\tipCalc_microfrm\TipCalculator\TipCalculator\obj\Debug\net8.0-windows\ref\TipCalculator.dll
