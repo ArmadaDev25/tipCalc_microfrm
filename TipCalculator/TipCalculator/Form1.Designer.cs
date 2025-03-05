@@ -35,6 +35,7 @@
             CalcButton = new Button();
             FADTitle = new Label();
             OutputLabel = new Label();
+            TipAmountCheck = new Button();
             SuspendLayout();
             // 
             // billInput
@@ -88,6 +89,7 @@
             FADTitle.Size = new Size(155, 25);
             FADTitle.TabIndex = 5;
             FADTitle.Text = "Final Amount Due";
+            FADTitle.Click += FADTitle_Click;
             // 
             // OutputLabel
             // 
@@ -98,11 +100,22 @@
             OutputLabel.TabIndex = 6;
             OutputLabel.Text = "Output";
             // 
+            // TipAmountCheck
+            // 
+            TipAmountCheck.Location = new Point(10, 282);
+            TipAmountCheck.Name = "TipAmountCheck";
+            TipAmountCheck.Size = new Size(202, 34);
+            TipAmountCheck.TabIndex = 7;
+            TipAmountCheck.Text = "Check Tip Amount";
+            TipAmountCheck.UseVisualStyleBackColor = true;
+            TipAmountCheck.Click += TipAmountCheck_Click;
+            // 
             // TipCalculator
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(TipAmountCheck);
             Controls.Add(OutputLabel);
             Controls.Add(FADTitle);
             Controls.Add(CalcButton);
@@ -125,5 +138,6 @@
         private Button CalcButton;
         private Label FADTitle;
         private Label OutputLabel;
+        private Button TipAmountCheck;
     }
 }
