@@ -28,6 +28,15 @@ namespace TipCalculator
                 
         }
         // Function that calculates the final bill total
+        private double calculateFinalBill() {
+            double billAmount = 0;
+
+            return billAmount;
+        
+        
+        
+        }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -41,10 +50,12 @@ namespace TipCalculator
             // if statement checks to make sure the output of areInputsValid is true, if not the program will error out
             if (areInputsValid(inputBillAmount, inputTipAmount) == true)
             {
-                OutputLabel.Text = "ertor";
+                // outputLabel displays the amount calculated by the calculateFinalBill function as a string
+                OutputLabel.Text = calculateFinalBill().ToString();
             }
             else {
-                OutputLabel.Text = "error";
+                // Error that displays if areInputsValid comes back as false
+                OutputLabel.Text = "Error: Please Input A Valid Number";
                 
             }
         }
