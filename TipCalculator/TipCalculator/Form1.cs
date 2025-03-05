@@ -31,6 +31,7 @@ namespace TipCalculator
                 
         }
         // Function that calculates the final bill total
+        // Takes in two strings and converts them to doubles, then perform the calculations to find the total bill amount
         private double calculateFinalBill(string billA, string tipA) {
             double fbillAmount = 0;
             // Converts the bill ammount to a double and stores it
@@ -57,7 +58,9 @@ namespace TipCalculator
 
         private void CalcButton_Click(object sender, EventArgs e)
         {
+            // Holds the Inputed bill Amount
             string inputBillAmount = billInput.Text;
+            // Holds the inputed tip amount
             string inputTipAmount = TipInput.Text;
             // if statement checks to make sure the output of areInputsValid is true, if not the program will error out
             if (areInputsValid(inputBillAmount, inputTipAmount) == true)
