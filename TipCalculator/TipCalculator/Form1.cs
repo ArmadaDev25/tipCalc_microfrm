@@ -9,8 +9,23 @@ namespace TipCalculator
         }
         //Function that determines if the inputs are valid
         private bool areInputsValid(string inputBA, string inputTA) {
-            
-            return true;
+            double checkedBA = 0;
+            double checkedTA = 0;
+            if (double.TryParse(inputBA, out checkedBA))
+            {
+                if (double.TryParse(inputTA, out checkedTA)){
+                    return true;
+
+                } else {
+                    return false;
+                
+                }
+            }
+            else {
+                return false;
+
+            }
+                
         }
         // Function that calculates the final bill total
 
@@ -23,7 +38,15 @@ namespace TipCalculator
         {
             string inputBillAmount = billInput.Text;
             string inputTipAmount = TipInput.Text;
-            areInputsValid(inputBillAmount, inputTipAmount);
+            // if statement checks to make sure the output of areInputsValid is true, if not the program will error out
+            if (areInputsValid(inputBillAmount, inputTipAmount) == true)
+            {
+                OutputLabel.Text = "ertor";
+            }
+            else {
+                OutputLabel.Text = "error";
+                
+            }
         }
 
 
